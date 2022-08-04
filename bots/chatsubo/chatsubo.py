@@ -21,7 +21,10 @@ class Chatsubo(commands.Cog):
         self.language_model = OpenAIGPT3LanguageModel(config.LM_OPENAI_API_KEY)
 
     @commands.command()
-    async def ping(self, ctx: commands.context) -> None:
+    async def ping(
+        self,
+        ctx: commands.context,
+    ) -> None:
         await ctx.send("pongggggggg")
 
     @commands.Cog.listener("on_message")
