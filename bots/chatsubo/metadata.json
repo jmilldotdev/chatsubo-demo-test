@@ -1,0 +1,5 @@
+{
+  "name": "Chatsubo",
+  "token_env": "BOT_TOKEN",
+  "command_prefix": "!"
+}
