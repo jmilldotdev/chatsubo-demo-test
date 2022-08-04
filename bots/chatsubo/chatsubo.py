@@ -22,7 +22,7 @@ class Chatsubo(commands.Cog):
 
     @commands.command()
     async def ping(self, ctx: commands.context) -> None:
-        await ctx.send("pong")
+        await ctx.send("pongggggggg")
 
     @commands.Cog.listener("on_message")
     async def on_message(self, message: discord.Message) -> None:
